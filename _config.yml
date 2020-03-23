@@ -6,7 +6,7 @@
 title: JL Tech Consulting
 email:
 description: A site listing my services and contact information.
-baseurl: #
+baseurl: /
 url: jltechconsulting.ca
 
 color-scheme: "#629dfc" # the scheme can be any HEX code like "#00aa55"

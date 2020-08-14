@@ -8,6 +8,7 @@ email:
 description: A site listing my services and contact information.
 baseurl: /
 url: jltechconsulting.ca
+year: 2020
 
 color-scheme: "#629dfc" # the scheme can be any HEX code like "#00aa55"
 

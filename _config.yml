@@ -1,83 +1,70 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
+# Site settings
 title: JL Tech Consulting
-email:
-description: A site listing my services and contact information.
-baseurl: /
+email: service@jltechconsulting.ca
 url: jltechconsulting.ca
-year: 2020
+description: "IT Consulting Services"
+keywords: "IT, Tech, Support, Consultant"
+skills: "Information Technology - System Deployment - Infrastructure"
+meta_author: Laberge Jonathan
 
-color-scheme: "#629dfc" # the scheme can be any HEX code like "#00aa55"
+# Google webmaster tools
+google_verify:
 
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-include:
-  - _pages
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
 
-exclude:
-  - .sass-cache
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Americas/Toronto
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# Footer settings
+footer:
+  copyright: JL Tech Consulting
+  location: Location
+  social: Follow Us
+  credits: Contact
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Jon Laberge
-  avatar: #
-  job: #
-  bio: #
-  email: service@jltechconsulting.ca
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  gitlab: #username
-  stackoverflow: #123456/username   from a "https://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: GTA and Surrounding Areas
+
+# Contact content
+credits: '<a href="mailto:service@jltechconsulting.ca">service@jltechconsulting.ca</a>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""

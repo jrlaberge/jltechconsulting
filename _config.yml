@@ -1,7 +1,7 @@
 # Site settings
 title: JL Tech Consulting
 email: service@jltechconsulting.ca
-url: jltechconsulting.ca
+url: jltechconsulting.ca/
 description: "IT Consulting Services"
 keywords: "IT, Tech, Support, Consultant"
 skills: "Information Technology - System Deployment - Infrastructure"
@@ -39,23 +39,15 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    #  - title: twitter
+        url: http://twitter.com/j_laberge
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: GTA and Surrounding Areas
+  - line: GTA and Surrounding Area
 
 # Contact content
-credits: '<a href="mailto:service@jltechconsulting.ca">service@jltechconsulting.ca</a>'
+credits: '<a href="mailto:service@jltechconsulting.ca"><i class="fa fa-envelope-o" style="font-size:20px"></i> service@jltechconsulting.ca</a>'
 
 # Build settings
 markdown: kramdown

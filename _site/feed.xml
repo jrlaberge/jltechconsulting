@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-08-20T14:04:56-04:00</updated>
+  <updated>2020-08-21T12:48:51-04:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,5 +18,39 @@
   
 
   
+  
+    <entry>
+      <title type="html">Pc Builds</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Pc Builds" />
+      <published>2020-08-20T00:00:00-04:00</published>
+      <updated>2020-08-20T00:00:00-04:00</updated>
+      <id>http://localhost:4000/pc-builds</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;Check out this custom DBZ themed gaming PC that I built. Powered by an intel i7-9900k, MSI GeForce GTX 1660 TI OC, and custom cables provided by CableMod.  &lt;a href=&quot;http://localhost:4000#contact&quot;&gt;Contact me.&lt;/a&gt; if you’re interested in getting a custom built PC.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Custom PC Build" />
+      
+
+      
+
+      
+        <summary type="html">Check out this custom DBZ themed gaming PC that I built. Powered by an intel i7-9900k, MSI GeForce GTX 1660 TI OC, and custom cables provided by CableMod. Contact me. if you’re interested in getting a custom built PC.</summary>
+      
+
+      
+      
+    </entry>
   
 </feed>

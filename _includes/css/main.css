@@ -8,6 +8,13 @@ body {
     overflow-x: hidden;
 }
 
+.border {   
+    border-width: 5px;   
+    border-color: white;   
+    border-style: solid; 
+    border-radius: 50%;
+} 
+
 p {
     font-size: 20px;
 }
